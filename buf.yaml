@@ -1,0 +1,16 @@
+version: v1beta1
+deps:
+  - buf.build/googleapis/googleapis
+build:
+  excludes:
+    - bazel-buf_example
+    - bazel-bin
+    - bazel-out
+    - bazel-testlogs
+breaking:
+  use:
+    - PACKAGE
+lint:
+  use:
+    - DEFAULT
+

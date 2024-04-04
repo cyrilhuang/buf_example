@@ -1,0 +1,5 @@
+syntax = "proto3";
+package b;
+
+import "a/config.proto";
+import "riegeli/records/records_metadata.proto";
